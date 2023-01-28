@@ -1,12 +1,20 @@
-header{
+body{
     background-color: bisque;
-    
 }
-
 h1{
     font-style: normal;
 }
 
+.coloring{
+    color:crimson;
+}
+
+
+button{
+    border-color: antiquewhite;
+    background-color: red;
+    color: aliceblue;
+}
 main{
     background-color: black;
     padding: auto;
