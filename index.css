@@ -2,43 +2,31 @@ body{
     background-color: bisque;
     
 }
-main{
-    background-color: black;
-    border-style: solid;
-    border-radius: 15px;
-    color: aliceblue;
+.mycolor{
+    color: cyan;
 }
 h1{
     font-style: normal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-#mycolor{
-    color: red;
-}
-#italic{
-    font-style: italic;
-}
-.fonting{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
-    margin-left: 10px;
+#header{
+    background-image: url('https://i.pinimg.com/736x/2a/9e/a1/2a9ea14b23a36b6ad16a23f5d39b4c05.jpg');
+    background-size: 600px;
+    
+    color: antiquewhite;
 }
 .image{
     border-color: cyan;
     border-width: 4px;
     border-style: solid;
-    border-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 200px;
 }
-.colorA{
-    color: yellow;
+.imagex{
+    height: 100px;
+    margin-bottom: 100px;
 }
-.HEADING{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.list{
-    font-size: 22px;
-}
-
 .image1{
     height: 100px;
     border-color: black;
@@ -49,12 +37,39 @@ h1{
 .image2{
     height: 40px;
 }
+
+#italic{
+    font-style: italic;
+}
+
+.list{
+    font-size: 22px;
+}
+.colorA{
+    color: yellow;
+}
+.fonting{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.HEADING{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.coloring{
+    color:crimson;
+    font-style: italic;
+}
+
+
 .button{
     border-color: antiquewhite;
     background-color: red;
     color: aliceblue;
 }
-.coloring{
-    color:crimson;
-    font-style: italic;
+main{
+    background-color: black;
+    border-style: solid;
+    border-radius: 15px;
+    color: aliceblue;
 }
