@@ -15,6 +15,7 @@ h1{
     padding: 10px;
     padding-top: 2px;
     color: antiquewhite;
+
 }
 .image{
     border-color: cyan;
@@ -23,6 +24,7 @@ h1{
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
     height: 200px;
+
 }
 .imagex{
     height: 100px;
@@ -43,25 +45,30 @@ h1{
 }
 
 .list{
-    font-size: 19px;
+    font-size: 22px;
 }
 .colorA{
     color: yellow;
 }
 .fonting{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     margin-left: 10px;
 }
 .HEADING{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    clear: left;
 }
 .coloring{
     color:crimson;
     font-style: italic;
 }
-
-
+.button:hover{
+    background-color: rgb(138, 0, 0);
+}
+.coloring:hover{
+    background-color: grey;
+}
 .button{
     border-color: antiquewhite;
     background-color: red;
@@ -73,13 +80,9 @@ main{
     border-radius: 15px;
     color: aliceblue;
     padding: 10px;
+    clear: left;
 }
 .padding{
     padding-left: 10px;
 }
-.button:hover{
-    background-color: rgb(138, 0, 0);
-}
-.coloring:hover{
-    background-color: grey;
-}
+
