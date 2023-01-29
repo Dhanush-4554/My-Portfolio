@@ -78,4 +78,9 @@ main{
 .padding{
     padding-left: 10px;
 }
-
+.button:hover{
+    background-color: rgb(138, 0, 0);
+}
+.coloring:hover{
+    background-color: grey;
+}
