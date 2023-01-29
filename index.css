@@ -3,7 +3,7 @@ body{
     
 }
 .mycolor{
-    color: cyan;
+    color: red
 }
 h1{
     font-style: normal;
@@ -12,7 +12,8 @@ h1{
 #header{
     background-image: url('https://i.pinimg.com/736x/2a/9e/a1/2a9ea14b23a36b6ad16a23f5d39b4c05.jpg');
     background-size: 600px;
-    
+    padding: 10px;
+    padding-top: 2px;
     color: antiquewhite;
 }
 .image{
@@ -72,4 +73,9 @@ main{
     border-style: solid;
     border-radius: 15px;
     color: aliceblue;
+    padding: 10px;
 }
+.padding{
+    padding-left: 10px;
+}
+
