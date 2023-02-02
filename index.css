@@ -31,7 +31,8 @@ h1{
 }
 .image1{
     height: 100px;
-    border-color: black;
+    border-color: white;
+    background-color: white;
     border-width: 5px;
     border-style: solid;
     border-radius: 15px;
