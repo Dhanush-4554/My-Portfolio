@@ -82,7 +82,7 @@ main{
 .aboutMe{
     border: 2px solid white;
     border-radius: 20px;
-    margin-left: 2em;
+    margin-left: 1em;
     margin-right: 1em;
     margin-top: 100px;
     box-sizing: border-box;
@@ -125,7 +125,7 @@ main{
     padding-left: 1.5em;
     padding-right: 1.5em;
     padding-bottom: 1.5em;
-    margin-left: 2em;
+    margin-left: 1em;
     margin-right: 1em;
     border-radius: 20px;
     box-sizing: border-box;
@@ -156,7 +156,7 @@ main{
     margin-top: 50px;
     padding-right: 1.5em;
     padding-bottom: 1.5em;
-    margin-left: 2em;
+    margin-left: 1em;
     margin-right: 1em;
     margin-bottom: 2.0em;
     border-radius: 20px;
@@ -195,7 +195,7 @@ main{
     align-items: center;
     border: 3px solid white;
     border-radius: 20px;
-    margin-left: 2em;
+    margin-left: 1em;
     margin-right: 1em;
     margin-top: 50px;
     margin-bottom: 2em;
@@ -242,7 +242,7 @@ main{
 }
 .foot{
     text-decoration: underline;
-    padding-left: 30px;
+    padding-left: 20px;
     box-sizing: border-box;
     margin-top: 50px;
 }
@@ -258,11 +258,12 @@ main{
     display: flex;
     -webkit-box-pack: justify;
     justify-content: space-between;
-    width: 30%;
+    width: 35%;
     margin-left: 0px auto;
 }
 .bill{
     list-style: none;
+    padding-left: 20px;
 }
 .github{
     filter: invert();
@@ -281,6 +282,7 @@ ol li{
     align-items: center;
     background-color: black;
     padding: 5px;
+    display: contents;
     border: 2px solid transparent;
 }
 .foot ul li:hover{
