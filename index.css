@@ -18,16 +18,20 @@ header{
     top: 20px;
     padding-top: 20px;
 }
-.logo{
+header .left .logo{
     font-size: 40px;
     padding-top: 10px;
-    padding-right: 2px;
+    margin-right: 5px;
     text-decoration: none;
     text-decoration-style: none;
     color: white;
     text-align: center;
     border: 2px solid white;
     border-radius: 15px;
+}
+.logo123{
+    text-decoration: none;
+    text-decoration-style: none;
 }
 header .left .logo:hover{
     border-color: gold;
