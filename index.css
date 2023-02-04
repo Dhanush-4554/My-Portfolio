@@ -57,7 +57,7 @@ header .left .logo:hover{
 }
 .mid{
     display: block;
-    width: 75%;
+    width: 85%;
     margin: 5px auto;
 }
 .navbar li a .navLogo{
@@ -316,3 +316,8 @@ ol li:hover{
     margin-top: 0px;
     color: palevioletred;
 }
+#last{
+    color: rgb(162, 162, 162);
+    float: right;
+}
+
