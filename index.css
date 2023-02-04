@@ -1,94 +1,3 @@
-/* body{
-    background-color: bisque;
-    
-}
-.mycolor{
-    color: red
-}
-h1{
-    font-style: normal;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-#header{
-    background-image: url('https://i.pinimg.com/736x/2a/9e/a1/2a9ea14b23a36b6ad16a23f5d39b4c05.jpg');
-    background-size: 600px;
-    padding: 10px;
-    padding-top: 2px;
-    color: antiquewhite;
-
-}
-.image{
-    border-color: cyan;
-    border-width: 4px;
-    border-style: solid;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    height: 200px;
-
-}
-.imagex{
-    height: 100px;
-}
-.image1{
-    height: 100px;
-    border-color: white;
-    background-color: white;
-    border-width: 5px;
-    border-style: solid;
-    border-radius: 15px;
-}
-.image2{
-    height: 40px;
-}
-
-#italic{
-    font-style: italic;
-}
-
-.list{
-    font-size: 22px;
-}
-.colorA{
-    color: yellow;
-}
-.fonting{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
-    margin-left: 10px;
-}
-.HEADING{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    clear: left;
-}
-.coloring{
-    color:crimson;
-    font-style: italic;
-}
-.button:hover{
-    background-color: rgb(138, 0, 0);
-}
-.coloring:hover{
-    background-color: grey;
-}
-.button{
-    border-color: antiquewhite;
-    background-color: red;
-    color: aliceblue;
-}
-main{
-    background-color: black;
-    border-style: solid;
-    border-radius: 15px;
-    color: aliceblue;
-    padding: 10px;
-    clear: left;
-}
-.padding{
-    padding-left: 10px;
-}
-
- */
-
 body{
     background-color: black;
     background-image: url('https://th.bing.com/th/id/R.bb387e5a1296d1cd048540c23b5633c5?rik=qoZnSIkhyOWbDA&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fBMrmUGk.jpg&ehk=6bVNzCHTgDVHpMvKIvEX167SUJl%2fq72pJPpDIdSw8Ug%3d&risl=&pid=ImgRaw&r=0');
@@ -266,29 +175,21 @@ main{
     list-style: none;
     list-style-position: initial;
     list-style-type: none;
-    display: inline-block;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
     width: 70%;
+    box-sizing: border-box;
 }
-.academic ul li{
+
+.academic ul li div{
     background-color: gray;
     border: 3px solid transparent;
     padding: 10px; 
+    /* box-sizing: border-box; */
 }
-.academic ul li:hover{
+.academic ul li div:hover{
     border: 3px solid white;
 }
 .year{
     width: 200px;
-}
-.academic{
-    background-image: url('https://www.bing.com/th/id/OGC.928e1aa5fc53b31897414d2ecf4cda5a?pid=1.7&rurl=https%3a%2f%2fcdn.dribbble.com%2fusers%2f109167%2fscreenshots%2f1792560%2fgauge_001.gif&ehk=kRJonB74ccMcV1E0OTqJWj4kmNxF1kljQSzFhMoltzw%3d');
-    background-repeat: no-repeat;
-    background-position-x: 25em;
-    background-position-y: 10em;
-    background-size: 40em;
-
 }
 .coding{
     align-items: center;
@@ -369,6 +270,7 @@ main{
     -webkit-box-pack: justify;
     justify-content: space-between;
     width: 32%;
+    margin-left: 0px auto;
 }
 .github{
     filter: invert();
@@ -397,8 +299,8 @@ main{
 .email img{
     height: 15px;
 }
-
 #email1{
     margin-top: 0px;
     color: white;
 }
+
