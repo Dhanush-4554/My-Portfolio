@@ -57,7 +57,7 @@ header .left .logo:hover{
 }
 .mid{
     display: block;
-    width: 80%;
+    width: 90%;
     margin: 5px auto;
 }
 .navbar li a .navLogo{
@@ -83,7 +83,7 @@ main{
     border: 2px solid white;
     border-radius: 20px;
     margin-left: 2em;
-    margin-right: 2em;
+    margin-right: 1em;
     margin-top: 100px;
     box-sizing: border-box;
 }
@@ -126,7 +126,7 @@ main{
     padding-right: 1.5em;
     padding-bottom: 1.5em;
     margin-left: 2em;
-    margin-right: 2em;
+    margin-right: 1em;
     border-radius: 20px;
     box-sizing: border-box;
 }
@@ -153,11 +153,10 @@ main{
 .academic{
     border: 3px solid white;
     margin-top: 50px;
-    padding-left: 1.5em;
     padding-right: 1.5em;
     padding-bottom: 1.5em;
     margin-left: 2em;
-    margin-right: 2em;
+    margin-right: 1em;
     margin-bottom: 2.0em;
     border-radius: 20px;
     box-sizing: border-box;
@@ -196,7 +195,7 @@ main{
     border: 3px solid white;
     border-radius: 20px;
     margin-left: 2em;
-    margin-right: 2em;
+    margin-right: 1em;
     margin-top: 50px;
     margin-bottom: 2em;
     padding-bottom: 2em;
@@ -270,7 +269,7 @@ main{
     -webkit-box-pack: justify;
     justify-content: space-between;
     width: 32%;
-    margin-left: 0px auto;
+    
 }
 .github{
     filter: invert();
