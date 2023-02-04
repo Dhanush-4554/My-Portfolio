@@ -33,6 +33,7 @@ header .left .logo{
     text-decoration: none;
     text-decoration-style: none;
 }
+
 header .left .logo:hover{
     border-color: gold;
     color: gold;
@@ -119,7 +120,7 @@ main{
     border-radius: 10px;
 }
 .loadimage1{
-    height: 100px;
+    width: 100px;
     margin: 10px;
     border-radius: 10px;
 }
@@ -158,6 +159,7 @@ main{
 .academic{
     border: 3px solid white;
     margin-top: 50px;
+    padding-left: 1.5em;
     padding-right: 1.5em;
     padding-bottom: 1.5em;
     margin-left: 1em;
@@ -282,7 +284,7 @@ main{
     border: 2px solid transparent;
 }
 ol li{
-    width: 50%;
+    width: auto;
     align-items: center;
     background-color: black;
     padding: 5px;
@@ -295,7 +297,6 @@ ol li{
     border-radius: 7px;
 }
 ol li:hover{
-    background-color: black;
     border: 2px solid white;
     border-radius: 7px;
 }
@@ -304,6 +305,7 @@ ol li:hover{
     border-radius: 7px;
     color: palevioletred;
 }
+
 .email{
     font-size: 20px;
     display: block;  
@@ -324,4 +326,3 @@ ol li:hover{
     color: rgb(162, 162, 162);
     float: right;
 }
-
