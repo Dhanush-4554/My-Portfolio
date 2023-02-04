@@ -40,10 +40,13 @@ header .left .logo:hover{
 }
 .navbar{
     display: inline-block;
+    padding-inline-start: 10px;
 }
 .navbar li{
     display: inline-block;
     font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .navbar li a{
     color: white;
