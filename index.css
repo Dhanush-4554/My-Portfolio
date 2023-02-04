@@ -48,7 +48,7 @@ header .left .logo:hover{
 .navbar li a{
     color: white;
     text-decoration: none;
-    padding: 5px 25px;
+    padding: 5px 10px;
 }
 .navbar li a:hover {
     text-decoration: underline ;
