@@ -60,7 +60,7 @@ header .left .logo:hover{
     color: grey;
 }
 .mid{
-    display: block;
+    display: inline-block;
     width: 92%;
     margin: 5px auto;
 }
