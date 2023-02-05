@@ -279,6 +279,7 @@ footer h1 {
     margin-left: 0px auto;
 }
 .bill{
+    padding-inline-start:10px;
     padding-left:0;
     margin: 30px;
     list-style: none;
