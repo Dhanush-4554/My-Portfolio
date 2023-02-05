@@ -10,6 +10,7 @@ header{
     position: -webkit-sticky;
     display: flex;
     padding: 10px;
+    background-color: black;
 }
 .left{
     display: block;
