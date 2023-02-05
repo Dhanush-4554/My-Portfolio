@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     background-color: black;
     background-image: url('https://th.bing.com/th/id/R.bb387e5a1296d1cd048540c23b5633c5?rik=qoZnSIkhyOWbDA&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fBMrmUGk.jpg&ehk=6bVNzCHTgDVHpMvKIvEX167SUJl%2fq72pJPpDIdSw8Ug%3d&risl=&pid=ImgRaw&r=0');
     background-size: 500px;
@@ -10,7 +11,7 @@ header{
     position: -webkit-sticky;
     display: flex;
     padding: 10px;
-    background-color: black;
+    background-color: rgb(61 61 61);
 }
 .left{
     display: block;
@@ -272,6 +273,7 @@ main{
     margin-left: 0px auto;
 }
 .bill{
+    margin: 20px 30px;
     list-style: none;
     padding-left: 20px;
 }
