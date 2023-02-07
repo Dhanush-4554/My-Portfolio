@@ -40,6 +40,19 @@ header .left .logo:hover{
     border-color: gold;
     color: gold;
 }
+
+.menu, .menuCancel{
+    height: 50px;
+    filter: invert();
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+#cancel{
+    display: none;
+}
 .navbar{
     display: inline-block;
     padding-inline-start: 10px;
@@ -74,6 +87,47 @@ header .left .logo:hover{
     height: 25px;
     filter: invert();
 }
+@media(max-width:900px){
+    label #btn,.menu{
+        display: block;
+        float: right;
+        margin-right: 20px;
+    }
+    .mid ul{
+        position: fixed;
+        width: 70%;
+        height: 100vh;
+        background-color:rgb(61 61 80) ;
+        top: 70px;
+        right:-100%;
+        transition: all .5s;
+        text-align: center;
+    }
+    .mid ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 40px;
+    }
+    .mid ul li a:hover{
+        color: black;
+        border-color: black;
+        background-color: rgb(42, 152, 255);
+    }
+
+    #check:checked ~ ul{
+        right: 0;
+    }
+    #check:checked ~ #btn{
+        display: none;
+    }
+    #check:checked ~ #cancel,.menuCancel{
+        display: block;
+        float: right;
+        margin-right: 20px;
+    }
+    
+}
+
 main{
     display: block;
     display: block;
