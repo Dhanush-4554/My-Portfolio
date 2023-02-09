@@ -127,7 +127,6 @@ header .left .logo:hover{
         float: right;
         margin-right: 10px;
     }
-    
 }
 .name{
     color: yellow;
@@ -168,7 +167,7 @@ main  ul li img{
     padding: 0;
     text-align: right;
     padding-right: 3em;
-    color: gray;
+    color: yellow;
 }
 .foot{
     align-items: center;
@@ -225,9 +224,30 @@ main  ul li img{
 }
 .foot ul{
     width: 30%;
-    padding-left:15px;
-
+    padding-left: 15px;
+    margin: 10px;
 }
 .foot img{
     height:25px;
+}
+@media(max-width:600px){
+    footer h1{
+        font-size: 20px;
+    }
+    footer ul{
+        margin-left: 5px;
+    }
+}
+@media(max-width:360px){
+    footer h1{
+        font-size: 15px;
+    }
+    footer ul{
+        margin-left: 5px;
+    }
+}
+@media(max-width:320px){
+    .foot{
+        display: none;
+    }
 }
