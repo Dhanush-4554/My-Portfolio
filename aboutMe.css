@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+    background-color: black;
+    background-image: url('https://th.bing.com/th/id/R.bb387e5a1296d1cd048540c23b5633c5?rik=qoZnSIkhyOWbDA&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fBMrmUGk.jpg&ehk=6bVNzCHTgDVHpMvKIvEX167SUJl%2fq72pJPpDIdSw8Ug%3d&risl=&pid=ImgRaw&r=0');
+    background-size: 500px;
+    font-family: 'Balsamiq Sans', cursive;
+    color: white;
+}
+header{
+    align-items: center;
+    position: -webkit-sticky;
+    display: flex;
+    padding: 10px;
+    background-color: rgb(61 61 61);
+}
+.left{
+    display: block;
+    left: 30px;
+    top: 20px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+header .left .logo{
+    font-size: 40px;
+    padding-top: 10px;
+    margin-right: 5px;
+    text-decoration: none;
+    text-decoration-style: none;
+    color: white;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+.logo123{
+    text-decoration: none;
+    text-decoration-style: none;
+}
+
+header .left .logo:hover{
+    border-color: gold;
+    color: gold;
+}
+
+.menu, .menuCancel{
+    height: 50px;
+    filter: invert();
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+#cancel{
+    display: none;
+}
+.navbar{
+    display: inline-block;
+    padding-inline-start: 10px;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+.navbar li a:hover {
+    text-decoration: underline ;
+    color: grey;
+    border: solid 2px white;
+    border-radius: 15px;
+}
+.navbar li a:active{
+    text-decoration: underline;
+    color: grey;
+}
+.mid{
+    display: inline-block;
+    width: 100%;
+    margin: 5px auto;
+}
+.navbar li a .navLogo{
+    height: 25px;
+    filter: invert();
+}
+@media(max-width:900px){
+    label #btn,.menu{
+        display: block;
+        float: right;
+        margin-right: 20px;
+    }
+    
+    .mid ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color:rgb(61 61 80) ;
+        top: 70px;
+        box-sizing: border-box;
+        right:-100%;
+        transition: all .5s;
+        text-align: center;
+    }
+    .mid ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 40px;
+    }
+    .mid ul li a:hover{
+        color: black;
+        border-color: black;
+        background-color: rgb(42, 152, 255);
+    }
+    #check:checked ~ ul{
+        right: 0;
+    }
+    #check:checked ~ #btn{
+        display: none;
+    }
+    #check:checked ~ #cancel,.menuCancel{
+        display: block; 
+        float: right;
+        margin-right: 10px;
+    }
+    
+}
+.name{
+    color: yellow;
+}
+
+.main{
+    margin: 2em;
+    box-sizing: border-box;
+    display: block;
+}
+.main h1{
+    font-size: 50px;
+    color: cyan;
+}
+.main p{
+    font-size: 20px;
+}
+
+main ul li{
+    font-size: 20px;
+    align-items: center;
+    list-style: none;
+}
+main  ul li img{
+    height: 30px;
+    align-items: center;
+    background-color: transparent;
+}
+
+.quote{
+    color: rgb(188, 188, 188);
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.mine{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    padding-right: 3em;
+    color: yellow;
+}
+.foot{
+    align-items: center;
+    width: 100%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(61 61 61);
+}
+
+.fill{ 
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    list-style-position: initial;
+    list-style-type: none;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 40%;
+    margin-left: 0px auto;
+}
+.foot ul li img{
+    border: 2px solid transparent;
+    border-radius: 35px;
+    padding: 3px;
+    height: 30px;
+}
+.foot ul li{
+    align-items: center;
+    background-color: rgb(61 61 61);
+    padding: 0;
+    margin: 0;
+    border: 2px solid transparent;
+}
+.foot ul li img:hover{
+    background-color: yellow;
+    border: 2px solid rgb(250, 250, 131);
+    border-radius: 50px;
+}
+
+.foot{
+    bottom: 0;
+    text-decoration: underline;
+    padding-left: 20px;
+    position: -webkit-sticky;
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin: 0 ;
+}
+.foot h1{
+    margin: 0;
+    padding: 0;
+}
+.foot ul{
+    width: 30%;
+
+}
+.foot img{
+    height:25px;
+}
