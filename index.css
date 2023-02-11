@@ -227,11 +227,12 @@ main{
     margin-bottom: 2.0em;
     border-radius: 20px;
     box-sizing: border-box;
-    background-image: url('https://cdn.pixabay.com/photo/2016/11/22/23/19/constellations-1851128__480.jpg');
+    background-image: url('https://cdn.pixabay.com/photo/2017/08/07/09/00/theatre-2601686__480.jpg');
     background-repeat: no-repeat;
-    background-position:  100px ;
     background-blend-mode: lighten;
-    background-size: 900px;
+    background-size: cover;
+
+
 }
 
 .academic:hover{
@@ -262,6 +263,11 @@ main{
 }
 .year{
     width: 200px;
+}
+@media(max-width:770px){
+    .academic{
+        background-image: none;
+    }
 }
 .coding{
     align-items: center;
