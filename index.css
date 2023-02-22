@@ -227,7 +227,7 @@ main{
     margin-bottom: 2.0em;
     border-radius: 20px;
     box-sizing: border-box;
-    background-image: url('https://cdn.pixabay.com/photo/2017/08/07/09/00/theatre-2601686__480.jpg');
+/*     background-image: url('https://cdn.pixabay.com/photo/2017/08/07/09/00/theatre-2601686__480.jpg'); */
     background-repeat: no-repeat;
     background-blend-mode: lighten;
     background-size: cover;
