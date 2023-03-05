@@ -243,13 +243,24 @@ main{
     padding-left: 30px;
     font-size: 2.5em;
 }
-.academic ul, .coding ul{
+.coding ul{
     text-decoration: none;
     list-style: none;
     list-style-position: initial;
     list-style-type: none;
     width: 70%;
     box-sizing: border-box;
+}
+.academic ul{
+    list-style: none;
+    display: flex;
+    width: 85%;
+    justify-content: space-around;
+}
+@media (max-width: 785px){
+    .academic ul{
+        flex-direction: column;
+    }
 }
 
 .academic ul li div{
